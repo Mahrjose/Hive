@@ -24,7 +24,7 @@ We welcome contributions to this project! Feel free to fork the repository, make
 
 **License:**
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 **Developed by:**
 
