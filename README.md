@@ -87,7 +87,7 @@ This guide outlines the steps to set up and run the Hive chat application locall
 
 **Running the Application:**
 
-Once the backend server is running (usually on port 3000 by default), you can access the Hive chat application in your web browser by visiting:
+Once the backend server is running (usually on port 5000 by default), you can access the Hive chat application in your web browser by visiting:
 
 ```
 http://localhost:5000
@@ -97,11 +97,13 @@ http://localhost:5000
 
 - Change the origin URL in [server.js](./backend/server.js) and ENDPOINT url in [SingleChat.js](./frontend/src/components/SingleChat.js) to `http://localhost:3000` if you're running the application locally. This step is crucial for enabling CORS (Cross-Origin Resource Sharing) and allowing the frontend to communicate with the backend server.
 
-- A `backend/.env` file is needed with the MONGO_URI, PORT and JWT_SECRET variables. The MONGO_URI should be a connection string to your MongoDB database, the PORT should be the port number for the backend server, and the JWT_SECRET should be a secret key for JSON Web Token (JWT) authentication. Here's an example of the `.env` file:
+- A `backend/.env` file is needed with the `MONGO_URI`, `PORT`, `JWT_SECRET`, `NODE_VERSION` and `NODE_ENV` (optional) variables. The MONGO_URI should be a connection string to your MongoDB database, the PORT should be the port number for the backend server, and the JWT_SECRET should be a secret key for JSON Web Token (JWT) authentication. Here's an example of the `.env` file:
 ```bash
-  MONGO_URI=mongodb+srv://<DB_username>:<DB_password>@<applicationName>.wt9mah7.mongodb.net/?retryWrites=true&w=majority&appName=<applicationName>
-  PORT=5000
-  JWT_SECRET=secret
+   MONGO_URI=mongodb+srv://<DB_username>:<DB_password>@<applicationName>.wt9mah7.mongodb.net/?   retryWrites=true&w=majority&appName=<applicationName>
+   PORT=5000
+   JWT_SECRET=secret
+   NODE_VERSION = 21.7.3
+   NODE_ENV = production / development  ## OPTIONAL
 ```
 - To read the .env file in the backend/ directory, change the script in the `./package.json` file to:
 ```bash
