@@ -30,7 +30,6 @@ import {
   DrawerOverlay,
 } from "@chakra-ui/modal";
 
-
 import ChatLoading from "../ChatLoading";
 import ProfileModal from "./ProfileModal";
 import { getSender } from "../../config/ChatLogics";
@@ -115,7 +114,6 @@ function SideDrawer() {
       setSelectedChat(data);
       setLoadingChat(false);
       onClose();
-      
     } catch (error) {
       toast({
         title: "Error fetching the chat",
@@ -148,7 +146,7 @@ function SideDrawer() {
           </Button>
         </Tooltip>
         <Text fontSize="3xl" fontFamily="" fontWeight="700">
-          Prangon
+          Hive
         </Text>
         <div>
           <Menu>
