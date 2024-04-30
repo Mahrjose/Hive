@@ -15,7 +15,9 @@ import animationData from "../Animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./misc/UpdateGroupChatModal";
 import { useChatState } from "../context/ChatProvider";
-const ENDPOINT = "http://localhost:5000";
+
+// const ENDPOINT = "http://localhost:5000";
+const ENDPONT = "https://hive-xnck.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
