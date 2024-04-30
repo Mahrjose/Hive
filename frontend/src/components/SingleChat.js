@@ -17,7 +17,7 @@ import UpdateGroupChatModal from "./misc/UpdateGroupChatModal";
 import { useChatState } from "../context/ChatProvider";
 
 // const ENDPOINT = "http://localhost:5000";
-const ENDPONT = "https://hive-xnck.onrender.com";
+const ENDPOINT = "https://hive-xnck.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
