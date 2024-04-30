@@ -99,7 +99,7 @@ http://localhost:5000
 
 - A `backend/.env` file is needed with the `MONGO_URI`, `PORT`, `JWT_SECRET`, `NODE_VERSION` and `NODE_ENV` (optional) variables. The MONGO_URI should be a connection string to your MongoDB database, the PORT should be the port number for the backend server, and the JWT_SECRET should be a secret key for JSON Web Token (JWT) authentication. Here's an example of the `.env` file:
 ```bash
-   MONGO_URI=mongodb+srv://<DB_username>:<DB_password>@<applicationName>.wt9mah7.mongodb.net/?   retryWrites=true&w=majority&appName=<applicationName>
+   MONGO_URI=mongodb+srv://<DB_username>:<DB_password>@<applicationName>.wt9mah7.mongodb.net/?retryWrites=true&w=majority&appName=<applicationName>
    PORT=5000
    JWT_SECRET=secret
    NODE_VERSION = 21.7.3
