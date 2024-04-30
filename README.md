@@ -90,7 +90,7 @@ This guide outlines the steps to set up and run the Hive chat application locall
 Once the backend server is running (usually on port 3000 by default), you can access the Hive chat application in your web browser by visiting:
 
 ```
-http://localhost:3000
+http://localhost:5000
 ```
 
 **Notes:**
