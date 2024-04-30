@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "start":"node --env-file=backend/.env backend/server.js",
-    "dev": "nodemon --env-file=backend/.env backend/server.js",
+    "start":"node backend/server.js",
+    "dev": "nodemon backend/server.js",
     "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Mirza Mahrab Hossain",
