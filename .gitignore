@@ -40,6 +40,7 @@ build/Release
 node_modules/
 backend/node_modules/
 jspm_packages/
+frontend/build
 
 # TypeScript v1.x
 *.ts~
