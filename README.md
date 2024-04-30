@@ -110,15 +110,16 @@ http://localhost:5000
    "start":"node --env-file=backend/.env backend/server.js",
    "dev": "nodemon --env-file=backend/.env backend/server.js",
 ```
-- For testing and developing the app locally, you can use the `dev script by running:
+- For testing and developing the app locally, you can use the `dev` script by running:
 ```bash
    npm run dev
 ```
-And in the frontend you'll need to run the following command:
+Then in the frontend, you'll need to run the following command:
 ```bash
    cd frontend
    npm start
 ```
+Then open the `http://localhost:3000/` in a browser to see / use the app frontend.
 
 **License:**
 
