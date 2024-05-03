@@ -105,7 +105,7 @@ http://localhost:5000
    NODE_VERSION = 21.7.3
    NODE_ENV = production / development  ## OPTIONAL
 ```
-- To read the .env file in the backend/ directory, change the script in the `./package.json` file to:
+- To read the .env file in the backend/ directory, change the script in the [package.json](./package.json) file to:
 ```bash
    "start":"node --env-file=backend/.env backend/server.js",
    "dev": "nodemon --env-file=backend/.env backend/server.js",
